@@ -1,39 +1,36 @@
 import Proj1 from "../assets/proj1.jpg";
 import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj3 from "../assets/proj3.jpg";
 
+import GitHubIcon from "@material-ui/icons/GitHub";
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "E-Vaccination Management System",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "TypeScript,HTML,CSS, Angular, Sql, Php, Apache server  ",
+    Link: 
+        <div>
+          <a href={"https://github.com/likhithaavvari/E-vaccination-System"}> <GitHubIcon /></a>
+        </div>,
   },
   {
-    name: "Ecommerce Website",
+    name: "Airline Reservation Management System",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "HTML, CSS, JS, Java, JDBC, Servlets, MySql",
+    Link:
+    <div>
+    <a href={"https://github.com/likhithaavvari/Airline-Reservation-Managment-System"}> <GitHubIcon /></a>
+    </div>,
   },
   {
-    name: "Spotify Clone",
+    name: "Malicious Urls Detection",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "Used linear regression and Multinomial naive bayes algorithm, kaggle dataset",
+    Link:
+    <div>
+       <a href={"https://github.com/likhithaavvari/Malicious-url-detection"}> <GitHubIcon /></a>
+    </div>,
   },
-  {
-    name: "Social Media Website",
-    image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
-  },
-  {
-    name: "Dashboard Visualizer",
-    image: Proj5,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
-  },
+  
 ];
+

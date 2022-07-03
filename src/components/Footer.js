@@ -9,12 +9,11 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+      <a href="https://www.instagram.com/_.likhithaaa._/"><InstagramIcon /></a> 
+      <a href="https://twitter.com/Likhithaaa14"> <TwitterIcon /></a> 
+      <a href="https://www.facebook.com/likhitha.avvari"><FacebookIcon /></a> 
+        <a href="https://www.linkedin.com/in/likhitha-avvari-914a491b0/"><LinkedInIcon /></a>
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
     </div>
   );
 }
